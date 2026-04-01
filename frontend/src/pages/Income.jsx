@@ -734,7 +734,7 @@ import { INCOME_COLORS, CATEGORY_ICONS_Inc } from "../assets/color";
 import { incomeStyles as styles } from "../assets/dummyStyles";
 import { getToken, getAuthHeader, isAuthenticated } from "../utils/auth";
 
-const API_BASE = `${import.meta.env.VITE_URL}/api` || "http://localhost:4000/api";
+const API_BASE = `${import.meta.env.VITE_URL}/api` || "https://expense-tracker-backend-4lhs.onrender.com/api";
 
 // Create axios instance with interceptor
 const api = axios.create({

@@ -511,7 +511,7 @@ import axios from 'axios';
 import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
-const BASE_URL = `${import.meta.env.VITE_URL}/api` || 'http://localhost:4000/api';
+const BASE_URL = `${import.meta.env.VITE_URL}/api` || 'https://expense-tracker-backend-4lhs.onrender.com/api';
 
 Modal.setAppElement('#root');
 
