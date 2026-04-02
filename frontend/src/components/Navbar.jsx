@@ -8,7 +8,7 @@ import { ChevronDown, LogOut, User } from 'lucide-react';
 import { useEffect } from 'react'
 import axios from 'axios'
 
-const BASE_URL = 'https://expense-tracker-backend-4lhs.onrender.com/api'
+const BASE_URL = `${import.meta.env.VITE_URL}/api`
 
 const Navbar = ({ user: propUser, onLogout }) => {
     const navigate = useNavigate();

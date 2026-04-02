@@ -8,7 +8,7 @@ import axios from 'axios'
 import { Outlet } from 'react-router-dom'
 
 
-const API_BASE = 'https://expense-tracker-backend-4lhs.onrender.com/api'
+const API_BASE = `${import.meta.env.VITE_URL}/api`
 
 const CATEGORY_ICONS = {
   Food: <Utensils className="w-4 h-4" />,
